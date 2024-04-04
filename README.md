@@ -2,7 +2,7 @@
 
 This is our implementation for the following paper:
 
->[Xiao, Jiaren, Quanyu Dai, Xiao Shen, Xiaochen Xie, Jing Dai, James Lam, and Ka-Wai Kwok. "Semi-supervised domain adaptation on graphs with contrastive learning and minimax entropy." arXiv preprint arXiv:2309.07402 (2023).](https://arxiv.org/abs/2309.07402)
+>[Jiaren Xiao, Quanyu Dai, Xiao Shen, Xiaochen Xie, Jing Dai, James Lam, and Ka-Wai Kwok. "Semi-supervised domain adaptation on graphs with contrastive learning and minimax entropy." Neurocomputing (2024): 127469.](https://www.sciencedirect.com/science/article/pii/S0925231224002406)
 
 
 ## Abstract
@@ -30,10 +30,12 @@ python SemiGCL.py --epochs 50 --lr_cly 0.01 --aggregator_class diffusion --outpu
 ## Citation 
 If you would like to use our code, please cite:
 ```
-@article{xiao2023semi,
+@article{xiao2024semi,
   title={Semi-supervised domain adaptation on graphs with contrastive learning and minimax entropy},
   author={Xiao, Jiaren and Dai, Quanyu and Shen, Xiao and Xie, Xiaochen and Dai, Jing and Lam, James and Kwok, Ka-Wai},
-  journal={arXiv preprint arXiv:2309.07402},
-  year={2023}
+  journal={Neurocomputing},
+  pages={127469},
+  year={2024},
+  publisher={Elsevier}
 }
 ```
